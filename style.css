@@ -1,6 +1,6 @@
 html { 
-    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/candle1.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/candle1.gif"), auto;
     overflow: auto; 
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/candle1.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/candle1.gif"), auto;
 } 
   
 
@@ -16,9 +16,16 @@ iframe {
   
 iframe { 
     display: block; 
-    /* width: 100%;      */
+    width: 100%;     
     height: 100%; 
     border: none; 
-    overflow-y: auto; 
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden; 
+    /*
+    overflow-y: hidden; 
     overflow-x: hidden; 
+    */
 } 
+
+
